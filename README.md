@@ -7,5 +7,5 @@ npm install
 ## Run
 
 ```
-npx ts-node 1.ts
+npx ts-node day-01/index.ts
 ```

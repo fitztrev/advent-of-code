@@ -1,10 +1,11 @@
 // https://adventofcode.com/2022/day/1
 //
-// Usage: npx ts-node 1.ts
+// Usage: npx ts-node index.ts
 
 import fs from "fs";
+import path from "path";
 
-const inputs = fs.readFileSync("1-inputs.txt", "utf-8");
+const inputs = fs.readFileSync(path.resolve(__dirname, "./input.txt"), "utf-8");
 
 let elves = inputs
   .split("\n\n")
