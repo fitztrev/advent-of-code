@@ -5,9 +5,9 @@
 import fs from "fs";
 import path from "path";
 
-const inputs = fs.readFileSync(path.resolve(__dirname, "./input.txt"), "utf-8");
+const input = fs.readFileSync(path.resolve(__dirname, "./input.txt"), "utf-8");
 
-let elves = inputs
+let elves = input
   .split("\n\n")
   .map((group) => group.split("\n"))
   .map((group) => group.reduce((acc, calories) => acc + parseInt(calories), 0))
