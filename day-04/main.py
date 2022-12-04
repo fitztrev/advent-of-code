@@ -8,6 +8,7 @@ with open(path.join(path.dirname(__file__), "input.txt")) as f:
     for line in f:
         # get each of the lower/upper bounds and convert to integers
         bounds = [int(x) for x in re.split('[,-]', line)]
+
         elf_1 = set(range(bounds[0], bounds[1] + 1))
         elf_2 = set(range(bounds[2], bounds[3] + 1))
 
