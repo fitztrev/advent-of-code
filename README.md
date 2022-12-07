@@ -8,3 +8,4 @@
 | [04](day-04) | Python     | `python3 day-04/main.py`                    | ⭐ ⭐  |
 | [05](day-05) | Python     | `python3 day-05/main.py`                    | ⭐ ⭐  |
 | [06](day-06) | Ruby       | `ruby day-06/main.rb`                       | ⭐ ⭐  |
+| [07](day-07) | Python     | `python3 day-07/main.py`                    | ⭐ ⭐  |
