@@ -7,3 +7,4 @@
 | [03](day-03) | Rust       | <code>cat input.txt &vert; cargo run</code> | ⭐ ⭐  |
 | [04](day-04) | Python     | `python3 day-04/main.py`                    | ⭐ ⭐  |
 | [05](day-05) | Python     | `python3 day-05/main.py`                    | ⭐ ⭐  |
+| [06](day-06) | Ruby       | `ruby day-06/main.rb`                       | ⭐ ⭐  |
