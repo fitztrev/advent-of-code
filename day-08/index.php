@@ -11,14 +11,14 @@ foreach ($rows as $row) {
     $grid[] = str_split($row);
 }
 
-foreach ($grid as $rowNumber => $row) {
+foreach ($grid as $rowNum => $row) {
     foreach ($row as $columnNum => $treeHeight) {
         $treesToTheLeft = array_reverse(array_slice($row, 0, $columnNum));
         $treesToTheRight = array_slice($row, $columnNum + 1);
 
         $column = array_column($grid, $columnNum);
-        $treesAbove = array_reverse(array_slice($column, 0, $rowNumber));
-        $treesBelow = array_slice($column, $rowNumber + 1);
+        $treesAbove = array_reverse(array_slice($column, 0, $rowNum));
+        $treesBelow = array_slice($column, $rowNum + 1);
 
         if (
             empty($treesToTheLeft) ||
