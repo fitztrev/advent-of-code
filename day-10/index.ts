@@ -33,7 +33,7 @@ for (let i = 0; i < cycleValues.length - 1; i++) {
   }
 
   if (spriteMiddle - 1 <= rowPosition && rowPosition <= spriteMiddle + 1) {
-    crt += "#";
+    crt += "█";
   } else {
     crt += " ";
   }
