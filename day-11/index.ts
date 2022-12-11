@@ -20,9 +20,8 @@ function parseInput(input: string) {
 
     monkeys.push({
       startingItems: getNumbersInString(lines[1]),
-      operation: function (value: number) {
-        return new Function("old", "return " + lines[2].split("=")[1])(value);
-      },
+      operation: (value: number) =>
+        new Function("old", "return " + lines[2].split("=")[1])(value),
       modulo: getNumbersInString(lines[3]).slice(-1)[0],
       recipientWhenTrue: getNumbersInString(lines[4]).slice(-1)[0],
       recipientWhenFalse: getNumbersInString(lines[5]).slice(-1)[0],
