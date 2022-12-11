@@ -11,3 +11,4 @@
 | [07](day-07) | Python     | `python3 day-07/main.py`                    | ⭐ ⭐  |
 | [08](day-08) | PHP        | `php day-08/index.php`                      | ⭐ ⭐  |
 | [10](day-10) | TypeScript | `npx ts-node day-10/index.ts`               | ⭐ ⭐  |
+| [11](day-11) | TypeScript | `npx ts-node day-11/index.ts`               | ⭐ ⭐  |
